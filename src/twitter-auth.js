@@ -4,7 +4,7 @@ import queryString from 'query-string';
 
 const apiPath = process.env.React_APP_SERVERLESS ? '/.url' : '/api';
 
-export function twitterAuth() {
+export function twitterAuth(() => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [name, setName] = useState();
   const [imageUrl, setImageUrl] = useState();
