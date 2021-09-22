@@ -7,7 +7,11 @@ import { Camera, Material, Texture, OrbitControls } from "three";
 export class Three extends Component {
     render() {
     return (
-        <h1>Three</h1>
+        <body>
+            <canvas id='c'></canvas>
+            
+        </body>
+        
       )
     }
 };
